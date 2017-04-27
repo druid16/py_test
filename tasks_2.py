@@ -8,8 +8,10 @@ elif 6 <= a <= 8:
     print('лето')
 elif 9 <= a <= 11:
     print('осень')
-else:
+elif 1 <= a <= 2 or a==12:
     print('зима')
+else:
+    print('ты попутал месяц')
 
 
 
