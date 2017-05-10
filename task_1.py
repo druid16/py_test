@@ -2,9 +2,14 @@
 # 1) Дан список [1, 2, 3, 4, 5]. Вывести квадраты всех чисел из списка
 
 a=[1, 2, 3, 4, 5]
-i=0
-b=len(a)
-while i <(b):
-    kv=a[i]
-    print(kv*kv)
-    i = i+1
+# i=0
+# b=len(a)
+# while i <(b):
+#     kv=a[i]
+#     print(kv*kv)
+#     i = i+1
+
+
+
+for i in a:
+    print(i**2)
